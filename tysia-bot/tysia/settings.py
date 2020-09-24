@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Oslo'
 
 USE_I18N = True
 
@@ -119,3 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# Settings for Telegram bot
+TOKEN = "1292542007:AAGHplSeXl9P-P3V7zK8bfZPgKz89T1faTA"
+PROXY_URL = "https://telegg.ru/orig/bot"
