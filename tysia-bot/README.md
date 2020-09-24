@@ -1,2 +1,5 @@
 # My first telegram bot.
-I'll add more information through out the development process
+
+Works via Django on backend.
+Saves the user id and message.
+Responds with the same message.
